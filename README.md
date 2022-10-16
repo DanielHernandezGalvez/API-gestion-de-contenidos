@@ -1,1 +1,1 @@
-link: https://danielhernandezgalvez.github.io/Cognitive/
+link: https://danielhernandezgalvez.github.io/Cognitive/1
