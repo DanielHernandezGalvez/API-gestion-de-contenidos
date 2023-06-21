@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- iconos -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href=""
+        ><img
+          class="logo"
+          src="./img/logo-amarillo_1.png"
+          alt="logo dani galvez"
+      /></a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#" class="active">Iniocio</a>
+        <a href="#">Proyectos</a>
+        <a href="#">Habilidades</a>
+        <a href="#">gift</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </header>
+    <!-- seccion de inicio -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hola, soy <span>Daniel Gálvez</span></h1>
+        <div class="text-animate">
+          <h2>Web Developer</h2>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minus
+          accusantium hic laboriosam velit. Iusto cupiditate similique
+          inventore, voluptatibus magnam repudiandae iure pariatur numquam minus
+          accusantium voluptate veniam vitae reprehenderit.
+        </p>
+        <div class="btn-box">
+          <!-- este dirije al formulario -->
+          <a href="#" class="btn">Contáctame</a>
+          <a download href="./DanielGalvezCv.pdf" class="btn">Currículum</a>
+        </div>
+      </div>
+
+      <div class="home-sci">
+        <a href=""><i class="bx bxl-github"></i></a>
+        <a href=""><i class="bx bxl-linkedin"></i></a>
+        <a href=""><i class="bx bx-envelope"></i></a>
+      </div>
+    </section>
+    <!-- sección sobrte mí -->
+    <section class="about" id="about">
+      <h3 class="heading">Sobre <span>Mí</span></h3>
+
+      <div class="about-img">
+        <img src="./img/foto-henry.png" alt="Daniel Gálvez" />
+        <span class="circle-spin"></span>
+      </div>
+
+      <div class="about-content">
+        <h4>Desarrollador web</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+          animi numquam totam perferendis consequatur molestiae eum dolore
+          suscipit ipsa, aliquid quaerat! Error quas assumenda vel id minima
+          libero cupiditate maiores.
+        </p>
+
+        <div class="btn-box btns">
+          <a href="" class="btn">Leer mas</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- sección de skills -->
+    <section class="skills" id="skills">
+      <h2 class="heading">Habilidades <span>Técnicas</span></h2>
+
+      <div class="proyects-row">
+        <div class="proyects-column">
+          <h3 class="title">Programación</h3>
+          <div class="skills-box">
+            <img src="./img/js.png" alt="Javascript" />
+            <img src="./img/PHP-logo.svg.png" alt="PHP" />
+            <img src="./img/Python.png" alt="Python" />
+          </div>
+          <h3 class="title">Diseño web</h3>
+          <div class="skills-box">
+            <img src="./img/html.png" alt="html" />
+            <img src="./img/css.png" alt="css" />
+            <img src="./img/sass.png" alt="sass" />
+            <img src="./img/bootstrap.png" alt="bootstrap" />
+            <img src="./img/tailwind.png" alt="tailwind" />
+            <img src="./img/wordpress.png" class="worpress" alt="wordpress" />
+            <img src="./img/mui.png" alt="Material ui" />
+          </div>
+          <h3 class="title">Frameworks</h3>
+          <div class="skills-box">
+            <img src="./img/reactjs.png" alt="" />
+            <img src="./img/Vue.png" alt="" />
+            <img src="./img/express.png" alt="" />
+            <img src="./img/next.png" alt="" />
+          </div>
+          <h3 class="title">Diseño Gráfico</h3>
+          <div class="skills-box">
+            <img src="./img/ilustrador.png" alt="" />
+            <img src="./img/figma_1.png" alt="" />
+            <img src="./img/photoshop.png" alt="" />
+          </div>
+          <h3 class="title">Herramientas</h3>
+          <div class="skills-box">
+            <img src="./img/git.png" alt="" />
+            <img src="./img/redux.png" alt="" />
+            <img src="./img/Notion-logo.svg.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sección para proyectos -->
+
+    <section class="proyects" id="proyects">
+      <h2 class="heading">Mis <span>Proyectos</span></h2>
+
+      <div class="proyects-row">
+        <div class="proyects-column">
+          <h3 class="title">Aplicaciones web</h3>
+          <div class="proyects-box">
+            <div class="proyects-card"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact" id="contact"></section>
+    <h2 class="heading">Contácta <span>Me!</span></h2>
+    <form action="#">
+      <div class="input-box">
+        <div class="input-field">
+          <input type="text" placeholder="Nombre" required />
+          <span class="focus"></span>
+        </div>
+        <div class="input-field">
+          <input type="email" placeholder="Email" required />
+          <span class="focus"></span>
+        </div>
+      </div>
+      <div class="textarea-field">
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Mensaje"
+        ></textarea>
+        <span class="focus"></span>
+      </div>
+      <div class="btn-box btns">
+        <button type="submit" class="btn">Enviar</button>
+      </div>
+    </form>
+    <!-- Javascript -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
