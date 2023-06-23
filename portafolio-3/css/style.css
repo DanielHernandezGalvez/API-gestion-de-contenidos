@@ -380,7 +380,7 @@ span {
 }
 
 .skill-card p {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .worpress {
@@ -565,6 +565,9 @@ span {
   .home {
     padding: 10rem 4% 2rem;
   }
+  .skill-card p {
+    font-size: 1.6rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -627,6 +630,9 @@ span {
     transform: translateX(0);
     transition-delay: 0.25s;
   }
+  .skill-card {
+    margin: auto 20px;
+  }
 }
 
 @media (max-width: 520px) {
@@ -641,6 +647,15 @@ span {
   .home-sci a {
     width: 38px;
     height: 38px;
+  }
+
+  .skill-card {
+    width: 15%;
+    margin: auto 10px;
+  }
+
+  .skill-card p {
+    font-size: 1.5rem;
   }
 }
 
