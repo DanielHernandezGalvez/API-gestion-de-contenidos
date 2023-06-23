@@ -31,9 +31,9 @@
       </div>
       <nav class="navbar">
         <a href="#home" class="active">Inicio</a>
-        <a href="#about">about</a>
-        <a href="#proyects">Proyectos</a>
         <a href="#skills">Habilidades</a>
+        <a href="#apps">Apps</a>
+        <a href="#designs">Diseños</a>
         <a href="#snake">gift</a>
         <a href="#contact">Contacto</a>
 
@@ -45,6 +45,10 @@
     <section class="home show-animate" id="home">
       <span class="animate" style="--i: 1"></span>
       <div class="home-content">
+        <div class="about-img">
+          <img src="./img/foto-henry.png" alt="Daniel Gálvez" />
+          <span class="circle-spin"></span>
+        </div>
         <h1>
           Hola, soy
           <span>Daniel Gálvez</span>
@@ -58,7 +62,11 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minus
           accusantium hic laboriosam velit. Iusto cupiditate similique
           inventore, voluptatibus magnam repudiandae iure pariatur numquam minus
-          accusantium voluptate veniam vitae reprehenderit.
+          accusantium voluptate veniam vitae reprehenderit. Lorem ipsum dolor
+          sit amet consectetur adipisicing elit. Eius minus accusantium hic
+          laboriosam velit. Iusto cupiditate similique inventore, voluptatibus
+          magnam repudiandae iure pariatur numquam minus accusantium voluptate
+          veniam vitae reprehenderit.
           <!-- <span class="animate" style="--i: 1"></span> -->
         </p>
         <div class="btn-box">
@@ -76,40 +84,8 @@
         <!-- <span class="animate" style="--i: 1"></span> -->
       </div>
     </section>
-    <!-- sección sobrte mí -->
-    <section class="about" id="about">
-      <h3 class="heading">
-        Sobre <span>Mí</span>
-        <span class="animate scroll" style="--i: 1"></span>
-      </h3>
-
-      <div class="about-img">
-        <img src="./img/foto-henry.png" alt="Daniel Gálvez" />
-        <span class="circle-spin"></span>
-        <span class="animate scroll" style="--i: 1"></span>
-      </div>
-
-      <div class="about-content">
-        <h4>
-          Desarrollador web
-          <span class="animate scroll" style="--i: 1"></span>
-        </h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-          animi numquam totam perferendis consequatur molestiae eum dolore
-          suscipit ipsa, aliquid quaerat! Error quas assumenda vel id minima
-          libero cupiditate maiores.
-          <span class="animate scroll" style="--i: 1"></span>
-        </p>
-
-        <div class="btn-box btns">
-          <a href="" class="btn">Leer mas</a>
-          <span class="animate scroll" style="--i: 1"></span>
-        </div>
-      </div>
-    </section>
-
     <!-- sección de skills -->
+
     <section class="skills" id="skills">
       <h2 class="heading">
         Habilidades <span>Técnicas</span>
@@ -245,9 +221,112 @@
         </div>
       </div>
     </section>
+
+    <!-- sección apps  -->
+    <section class="proyects" id="apps">
+      <h2 class="heading">
+        Mis <span>Aplicaciones web</span>
+        <span class="animate" style="--i: 1"></span>
+      </h2>
+
+      <div class="proyects-box">
+        <div class="proyects-card">
+          <h4>Voz a texto</h4>
+          <a href="https://chat-voice.netlify.app/" target="_blank">
+            <img src="./img/voice.png" alt="Reconocimiento de voz" />
+          </a>
+          <div class="tecnology">
+            <p>Aplicación de reconocimiento de voz y conversion a texto</p>
+            <img src="./img/reactjs.png" width="40px" alt="reactjs" />
+            <img src="./img/bootstrap.png" alt="bootstrap" />
+          </div>
+          <a
+            class="href"
+            href="https://github.com/DanielHernandezGalvez/Chat-Voice.git"
+            target="_blank"
+            >Repositorio</a
+          >
+        </div>
+
+        <div class="proyects-card">
+          <h4>Cotizador</h4>
+          <a
+            href="https://648fe9113b64502461ec692a--timely-jelly-029b85.netlify.app/"
+            target="_blank"
+          >
+            <img src="./img/prestamos.png" alt="Prestamos" />
+          </a>
+          <div class="tecnology">
+            <p>Aplicación de cotización de préstamo bancario</p>
+            <img src="./img/vue.png" width="40px" alt="vue" />
+            <img src="./img/tailwind.png" alt="tailwind" />
+          </div>
+          <a
+            class="href"
+            href="https://github.com/DanielHernandezGalvez/appDeCreditoHipotecario.git"
+            target="_blank"
+            >Repositorio</a
+          >
+        </div>
+
+        <div class="proyects-card">
+          <h4>App del Clima</h4>
+          <a
+            href="https://weather-app-danielgalvez.netlify.app/"
+            target="_blank"
+          >
+            <img src="./img/clima.png" alt="Clima" />
+          </a>
+          <div class="tecnology">
+            <p>
+              Aplicación para conocer el clima de diferentes ciudades y países
+            </p>
+            <img src="./img/reactjs.png" width="40px" alt="" />
+            <img src="./img/css.png" alt="" />
+          </div>
+          <a
+            class="href"
+            href="https://github.com/DanielHernandezGalvez/weather-app.git"
+            >Repositorio</a
+          >
+        </div>
+
+        <div class="proyects-card">
+          <h4>Piano</h4>
+          <a href="https://dg-piano-vue-js.netlify.app/" target="_blank">
+            <img src="./img/piano.png" alt="Piano" />
+          </a>
+          <div class="tecnology">
+            <p>
+              Piano dinámico y funcional para afinación de voz o instrumento
+            </p>
+            <img src="./img/vue.png" width="40px" alt="" />
+            <img src="./img/css.png" alt="" />
+          </div>
+          <a class="href" href="">Repositorio</a>
+        </div>
+
+        <div class="proyects-card">
+          <h4>SnakeGame</h4>
+          <a href="#snake">
+            <img src="./img/snake.png" alt="Piano" />
+          </a>
+          <div class="tecnology">
+            <p>Videojuego retro de la serpiente con tecnologías frontend</p>
+            <img src="./img/js.png" width="40px" alt="JavaScript" />
+            <img src="./img/html.png" alt="HTML" />
+            <img src="./img/css.png" alt="CSS" />
+          </div>
+          <a class="href" href="">Repositorio</a>
+        </div>
+
+        <span class="animate" style="--i: 3"></span>
+      </div>
+    </section>
+
     <!-- sección para proyectos -->
 
-    <section class="proyects" id="proyects">
+    <section class="designs" id="designs">
       <h2 class="heading">Mis <span>Proyectos</span></h2>
 
       <div class="proyects-row">
