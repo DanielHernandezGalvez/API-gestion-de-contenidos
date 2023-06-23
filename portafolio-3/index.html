@@ -13,6 +13,14 @@
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
 
     <link rel="stylesheet" href="./css/estilos.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <script type="text/javascript">
+      emailjs.init("0r7G6_2ElA5h-KCxi");
+    </script>
   </head>
   <body>
     <!-- Header -->
@@ -59,28 +67,36 @@
           <!-- <span class="animate" style="--i: 1"></span> -->
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minus
-          accusantium hic laboriosam velit. Iusto cupiditate similique
-          inventore, voluptatibus magnam repudiandae iure pariatur numquam minus
-          accusantium voluptate veniam vitae reprehenderit. Lorem ipsum dolor
-          sit amet consectetur adipisicing elit. Eius minus accusantium hic
-          laboriosam velit. Iusto cupiditate similique inventore, voluptatibus
-          magnam repudiandae iure pariatur numquam minus accusantium voluptate
-          veniam vitae reprehenderit.
+          Soy un desarrollador especializado en el FrontEnd de microservicios y
+          aplicaciones web. a lo largo de mi carrera, he contribuido a reducir
+          los tiempos de ejecución de tareas en varias áreas de mi empresa, así
+          como la optimisación del diseño para mejorar la usabilidad y
+          experiencia de usuario. Tengo un nivel intermedio de dominio del
+          inglés (actualmente B1) para comunicarme mejor como profesional. Me
+          apasiona lo que hago y me encanta aprender continuamente para mejorar
+          en mi carrera.
           <!-- <span class="animate" style="--i: 1"></span> -->
         </p>
         <div class="btn-box">
           <!-- este dirije al formulario -->
-          <a href="#" class="btn">Contáctame</a>
+          <a href="#contact" class="btn">Contáctame</a>
           <a download href="./DanielGalvezCv.pdf" class="btn">Currículum</a>
           <!-- <span class="animate" style="--i: 1"></span> -->
         </div>
       </div>
 
       <div class="home-sci">
-        <a href=""><i class="bx bxl-github"></i></a>
-        <a href=""><i class="bx bxl-linkedin"></i></a>
-        <a href=""><i class="bx bx-envelope"></i></a>
+        <a href="https://github.com/DanielHernandezGalvez" target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/-daniel-g%C3%A1lvez-70a897230/"
+          target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="mailto:hernandezgalvezalejandro@gmail.com"
+          ><i class="bx bx-envelope"></i
+        ></a>
         <!-- <span class="animate" style="--i: 1"></span> -->
       </div>
     </section>
@@ -246,6 +262,7 @@
             target="_blank"
             >Repositorio</a
           >
+          <span class="animate" style="--i: 2"></span>
         </div>
 
         <div class="proyects-card">
@@ -267,6 +284,7 @@
             target="_blank"
             >Repositorio</a
           >
+          <span class="animate" style="--i: 2"></span>
         </div>
 
         <div class="proyects-card">
@@ -289,6 +307,7 @@
             href="https://github.com/DanielHernandezGalvez/weather-app.git"
             >Repositorio</a
           >
+          <span class="animate" style="--i: 2"></span>
         </div>
 
         <div class="proyects-card">
@@ -303,7 +322,12 @@
             <img src="./img/vue.png" width="40px" alt="" />
             <img src="./img/css.png" alt="" />
           </div>
-          <a class="href" href="">Repositorio</a>
+          <a
+            class="href"
+            href="https://github.com/DanielHernandezGalvez/piano.git"
+            >Repositorio</a
+          >
+          <span class="animate" style="--i: 2"></span>
         </div>
 
         <div class="proyects-card">
@@ -318,24 +342,47 @@
             <img src="./img/css.png" alt="CSS" />
           </div>
           <a class="href" href="">Repositorio</a>
+          <span class="animate" style="--i: 2"></span>
         </div>
 
-        <span class="animate" style="--i: 3"></span>
+        <span class="animate" style="--i: 1"></span>
       </div>
     </section>
-
+    <hr />
     <!-- sección para proyectos -->
 
-    <section class="designs" id="designs">
-      <h2 class="heading">Mis <span>Proyectos</span></h2>
+    <section class="designs show-animate" id="designs">
+      <h2 class="heading">
+        Mis <span>Diseños web</span>
+        <span class="animate" style="--i: 1"></span>
+      </h2>
 
-      <div class="proyects-row">
-        <div class="proyects-column">
-          <h3 class="title">Aplicaciones web</h3>
-          <div class="proyects-box">
-            <div class="proyects-card"></div>
+      <div class="design-box">
+        <div class="design-card1">
+          <div class="content-design">
+            <a href="#">
+              <h3>Ir al Demo</h3>
+            </a>
           </div>
         </div>
+
+        <div class="design-card2">
+          <div class="content-design">
+            <a href="#">
+              <h3>Ir al Demo</h3>
+            </a>
+          </div>
+        </div>
+
+        <div class="design-card3">
+          <div class="content-design">
+            <a href="#">
+              <h3>Ir al Demo</h3>
+            </a>
+          </div>
+        </div>
+
+        <span class="animate" style="--i: 2"></span>
       </div>
     </section>
 
@@ -364,42 +411,59 @@
         Contácta <span>Me!</span>
         <span class="animate scroll" style="--i: 1"></span>
       </h2>
-      <form action="#">
+      <form id="form">
         <div class="input-box">
           <div class="input-field">
-            <input type="text" placeholder="Nombre" required />
+            <input
+              type="text"
+              placeholder="Nombre"
+              name="name"
+              id="name"
+              pattern=".*\S+.*"
+              required
+            />
             <span class="focus"></span>
             <span class="animate scroll" style="--i: 2"></span>
           </div>
           <div class="input-field">
-            <input type="email" placeholder="Email" required />
+            <input
+              type="email"
+              placeholder="Email"
+              name="email"
+              id="email"
+              required
+            />
             <span class="focus"></span>
             <span class="animate scroll" style="--i: 2"></span>
           </div>
         </div>
         <div class="textarea-field">
           <textarea
-            name=""
-            id=""
             cols="30"
             rows="10"
             placeholder="Mensaje"
+            name="message"
+            id="message"
             required
           ></textarea>
           <span class="focus"></span>
           <span class="animate scroll" style="--i: 2"></span>
         </div>
+
         <div class="btn-box btns">
-          <button type="submit" class="btn">Enviar</button>
+          <button type="submit" id="sendEmail" value="Send Email" class="btn">
+            Enviar
+          </button>
           <span class="animate scroll" style="--i: 3"></span>
         </div>
       </form>
     </section>
 
     <!-- footer -->
+    <hr />
     <footer class="footer">
       <div class="footer-text">
-        <p>Copyrigth &copy; 2023 Heco por <span>Daniel Galvez</span></p>
+        <p>Copyrigth &copy; 2023 Hecho por <span>Daniel Galvez</span></p>
         <span class="animate scroll" style="--i: 1"></span>
       </div>
 

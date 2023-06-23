@@ -407,10 +407,6 @@ span {
   justify-content: center;
 }
 
-.designs {
-  background-color: var(--second-bg-color);
-}
-
 .proyects-box {
   position: relative;
   display: flex;
@@ -429,6 +425,7 @@ span {
   border-radius: 0.6rem;
   width: 18%;
   height: 400px;
+  overflow: hidden;
 }
 
 .proyects-card h4 {
@@ -445,9 +442,14 @@ span {
 }
 
 .proyects-card a img {
+  transition: 0.3s;
   width: 100%;
   height: 60%;
   object-fit: cover;
+}
+
+.proyects-card a img:hover {
+  transform: scale(1.1);
 }
 
 .tecnology p {
@@ -460,11 +462,107 @@ span {
   width: 15%;
 }
 
+/* design */
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: white;
+}
+
+.designs {
+  position: relative;
+  background-color: var(--bg-color);
+}
+
+.design-box {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin-top: 9rem;
+}
+
+.design-card1 {
+  position: relative;
+  border: 0.2rem solid var(--main-color);
+  border-radius: 0.6rem;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  background-image: url("../img/clima.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.design-card2 {
+  position: relative;
+  border: 0.2rem solid var(--main-color);
+  border-radius: 0.6rem;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  background-image: url("../img/voice.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.design-card3 {
+  position: relative;
+  border: 0.2rem solid var(--main-color);
+  border-radius: 0.6rem;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  background-image: url("../img/piano.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.content-design {
+  width: 100%;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.582);
+  color: white;
+  transform: translateY(100%);
+  transition: all 0.35s ease;
+}
+
+.design-card1:hover .content-design {
+  transform: translateY(0);
+}
+.design-card2:hover .content-design {
+  transform: translateY(0);
+}
+.design-card3:hover .content-design {
+  transform: translateY(0);
+}
+
+.content-design a h3 {
+  color: var(--text-color);
+  font-size: 3rem;
+}
+
 /* Contacto */
 
 .contact {
   min-height: 80vh;
   padding-bottom: 7rem;
+  background-color: var(--bg-color);
 }
 
 .contact form {
@@ -552,7 +650,7 @@ span {
   align-items: center;
   flex-wrap: wrap;
   padding: 5rem 9%;
-  background: var(--second-bg-color);
+  background: var(--bg-color);
 }
 
 .footer-text,
@@ -792,7 +890,8 @@ span {
 .snake.show-animate .animate,
 .contact.show-animate .animate,
 .footer.show-animate .animate,
-.proyects.show-animate .animate {
+.proyects.show-animate .animate,
+.designs.show-animate .animate {
   animation: showRight 1s ease forwards;
   animation-delay: calc(0.3s * var(--i));
 }

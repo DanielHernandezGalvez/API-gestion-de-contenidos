@@ -133,7 +133,7 @@ var Snake = (function () {
       if (velocity.x == -1 && velocity.y == 0) lastAction = ActionEnum.left;
       if (velocity.x == 1 && velocity.y == 0) lastAction = ActionEnum.right;
 
-      ctx.fillStyle = "rgba(40,40,40,0.8)";
+      ctx.fillStyle = "#101010";
       ctx.fillRect(0, 0, canv.width, canv.height);
 
       if (walls) HitWall();
