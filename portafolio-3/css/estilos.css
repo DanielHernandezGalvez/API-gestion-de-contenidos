@@ -7,6 +7,7 @@
 }
 
 .keys {
+  position: relative;
   font-family: "Lato", sans-serif;
   text-align: center;
   max-width: 500px;
@@ -71,6 +72,7 @@
 }
 
 #game-container {
+  position: relative;
   display: flex;
   flex-direction: column;
 }
