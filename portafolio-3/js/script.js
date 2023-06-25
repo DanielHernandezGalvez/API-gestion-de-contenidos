@@ -134,7 +134,7 @@ function showSuccessMessage() {
     form.removeChild(successMessage);
   }, 10000); // Elimina el mensaje después de 10 segundos (10000 ms)
 }
-
+// mensaje fallido
 function failMessage() {
   const failMessage = document.createElement("h4");
   failMessage.textContent = "Error de envío, intentelo nuevamente";
