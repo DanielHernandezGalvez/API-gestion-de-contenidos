@@ -1,1 +1,0 @@
-# para primera entrega será un archivo comprimido, después debe ser github
