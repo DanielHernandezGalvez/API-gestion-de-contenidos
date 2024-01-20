@@ -1,4 +1,3 @@
-import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 
 export default function App() {
@@ -8,9 +7,8 @@ export default function App() {
         Hola, <Text style={styles.textItalic}>Coder!</Text>
       </Text>
       <Text style={styles.subtitle}>
-        Soy Daniel Gálvez, doy la bienvenida al primer entregable
+        Soy Daniel Gálvez, doy la bienvenida a mi primer entregable
       </Text>
-      <StatusBar style="auto" />
     </View>
   );
 }
@@ -18,22 +16,25 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#1F2023",
     alignItems: "center",
     justifyContent: "center",
-    paddingHorizontal: 20
+    paddingHorizontal: 25
   },
   title: {
     fontSize: 40,
     fontWeight: "bold",
+    color: "#F2F2F2"
   },
   textItalic: {
     fontWeight: "bold",
     fontStyle: "italic",
+    color: "#E5F876"
   },
   subtitle: {
     fontSize: 18,
     textAlign: "center",
-    marginTop: 15
+    marginTop: 15,
+    color: "#F2F2F2"
   },
 });
