@@ -7,7 +7,7 @@ export default function App() {
         Hola, <Text style={styles.textItalic}>Coder!</Text>
       </Text>
       <Text style={styles.subtitle}>
-        Soy Daniel Gálvez, doy la bienvenida a mi primer entregable
+        Soy Daniel Gálvez, te doy la bienvenida a mi primer entregable
       </Text>
     </View>
   );
