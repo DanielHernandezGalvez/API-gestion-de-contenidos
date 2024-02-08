@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -48,6 +48,37 @@
         </select>
         <p>La web incluye botónes de contacto a whatsapp, correo electrónico y más redes sociales</p>
         <p id="total-contactos"></p>
+
+        <label for="dominio">¿Ya tienes un dominio para tu página web?</label>
+        <select name="dominio" id="dominio" onchange="updateDominio()">
+            <option value="0">Ya tengo un dominio para mi página web</option>
+            <option value="0">No tengo, quiero comprarlo yo (recomendado)</option>
+            <option value="289">No tengo, quiero un dominio.com anual</option>
+            <option value="279">No tengo, quiero un dominio .com.mx anual</option>
+            <option value="721">No tengo, quiero un dominio .mx anual</option>
+        </select>
+        <p>El dominio de tu página web es la dirección con la cual la gente podrá entrar a tu página web.
+        </p>
+        <p id="total-dominio"></p>
+
+        <label for="host">¿Ya tienes un hospedaje para tu página web?</label>
+        <select name="host" id="host" onchange="updateHost()">
+            <option value="0">Ya tengo mi hospedaje web</option>
+            <option value="0">No tengo, quiero comprarlo yo (recomendado)</option>
+            <option value="791">No tengo, quiero un hospedaje anual</option>
+        </select>
+        <p>El hospedaje web es el lugar donde se guardará tu página web para que se vea en Internet.
+        </p>
+        <p id="total-host"></p>
+
+        <label for="english">¿Quieres tu página en inglés?</label>
+        <select name="english" id="english" onchange="updateEnglish()">
+            <option value="0">No</option>
+            <option value="3200">Si</option>
+        </select>
+        <p>La traducción del texto debe ser proporcionada por ti.
+        </p>
+        <p id="total-english"></p>
 
         <!-- total -->
         <p id="total-result"> </p>
