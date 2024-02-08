@@ -39,8 +39,15 @@
         </select>
         <p>Se instala Wordpress.org y recibes una guía gratuita para que edites tu contenido.
         </p>
-
         <p id="wordpress-result"></p>
+
+        <label for="contact-form">¿Quieres un formulario de contacto?</label>
+        <select name="contact-form" id="contact-form" onchange="updateForm()">
+            <option value="0">No</option>
+            <option value="400">Si</option>
+        </select>
+        <p>La web incluye botónes de contacto a whatsapp, correo electrónico y más redes sociales</p>
+        <p id="total-contactos"></p>
 
         <!-- total -->
         <p id="total-result"> </p>
