@@ -71,7 +71,7 @@
     <p id="total-english"></p>
 
     <!-- total -->
-    <p id="total-result"> </p>
+    <p id="total-result"></p>
 
     <input type="submit" value="Enviar">
 
