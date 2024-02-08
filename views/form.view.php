@@ -2,10 +2,10 @@
 
     <label for="sections">Cantidad de secciones</label>
     <select name="sections" id="sections" onchange="updateSectionsResult()">
-        <option value="1800">4</option>
-        <option value="2300">5</option>
-        <option value="2800">6</option>
-        <option value="3300">7</option>
+        <option value="2000">4</option>
+        <option value="2500">5</option>
+        <option value="3000">6</option>
+        <option value="3500">7</option>
     </select>
     <p>Por ejemplo: Inicio, Quiénes somos, Servicio 1, Servicio 2, Contacto, etc.
     </p>
