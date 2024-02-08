@@ -2,6 +2,6 @@
 
 
 
-require "views/form.view.php";
+require "views/index.view.php";
 
 ?>
