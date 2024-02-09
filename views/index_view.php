@@ -7,6 +7,6 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body class="container">
-    <?php require "form.view.php"; ?>
+    <?php require "form_view.php"; ?>
 </body>
 </html>
