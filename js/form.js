@@ -1,6 +1,4 @@
-
-
-
+// Javascript
 function updateSectionsResult() {
   const selectedValue = parseFloat(document.getElementById("sections").value);
   const paragraph = document.getElementById("sections-result");
