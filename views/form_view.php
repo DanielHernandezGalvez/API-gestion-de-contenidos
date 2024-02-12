@@ -1,4 +1,3 @@
-
 <form action="/form.php" method="post">
 
     <label for="sections">Cantidad de secciones</label>
