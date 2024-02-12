@@ -48,7 +48,6 @@ function updateEnglish() {
   updateTotal();
 }
 
-// Initialize total to 0
 let total = 0;
 
 // Function to update the total paragraph
@@ -60,11 +59,6 @@ function updateTotal() {
   const dominio = parseFloat(document.getElementById("dominio").value);
   const host = parseFloat(document.getElementById("host").value);
   let english = parseFloat(document.getElementById("english").value);
-
-  // Extract numeric values from option labels
-  // if (imagesPrice === 0) {
-  //     imagesPrice = parseFloat(document.getElementById("images").options[1].text.split("-")[0]);
-  // }
 
   total =
     sectionsPrice + imagesPrice + wordpress + form + dominio + host + english;
