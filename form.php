@@ -1,4 +1,4 @@
 <?php
-$sections = $_POST["sections"];
-echo "<p id='sections-result'>$sections</p>";
+  $sections = $_POST["sections"];
+  echo "<p id='sections-result'>$sections</p>";
 ?>
