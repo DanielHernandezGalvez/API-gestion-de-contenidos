@@ -9,6 +9,7 @@ function updateSectionsResult() {
 function updatedImagesResult() {
   const imageValue = parseFloat(document.getElementById("images").value);
   const imageResult = document.getElementById("images-result");
+  
   imageResult.textContent = `$ ${imageValue}.00`;
   updateTotal();
 }
@@ -16,6 +17,7 @@ function updatedImagesResult() {
 function updatedWordpress() {
   const wordpress = document.getElementById("wordpress").value;
   const wordpressResult = document.getElementById("wordpress-result");
+  
   wordpressResult.textContent = `$ ${wordpress}.00`;
   updateTotal();
 }
@@ -23,6 +25,7 @@ function updatedWordpress() {
 function updateForm() {
   const formContact = document.getElementById("contact-form").value;
   const formResult = document.getElementById("total-contactos");
+  
   formResult.textContent = `$ ${formContact}.00`;
   updateTotal();
 }
@@ -30,6 +33,7 @@ function updateForm() {
 function updateDominio() {
   const dominio = document.getElementById("dominio").value;
   const totalDominio = document.getElementById("total-dominio");
+  
   totalDominio.textContent = `$ ${dominio}.00`;
   updateTotal();
 }
@@ -37,6 +41,7 @@ function updateDominio() {
 function updateHost() {
   const host = document.getElementById("host").value;
   const hostTotal = document.getElementById("total-host");
+  
   hostTotal.textContent = `$ ${host}.00`;
   updateTotal();
 }
@@ -44,6 +49,7 @@ function updateHost() {
 function updateEnglish() {
   const english = document.getElementById("english").value;
   const totalEnglish = document.getElementById("total-english");
+  
   totalEnglish.textContent = `$ ${english}.00`;
   updateTotal();
 }
