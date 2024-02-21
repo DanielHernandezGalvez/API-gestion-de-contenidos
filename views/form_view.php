@@ -77,4 +77,4 @@
 
 </form>
 
-<script src="../js/form.js"></script>
+<script src="../javascript/form.js"></script>
