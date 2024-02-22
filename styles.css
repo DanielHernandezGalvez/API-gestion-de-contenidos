@@ -1,5 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --yellow: #FBB300;
+    --white: #FAFCFD;
+    --black: #22272B;
+    --gray: #5B6066;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1' PX = 1 rem **/
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+    font-family: "Roboto Mono", monospace;
+}
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6, button, a, b {
+    font-family: "Rubik", sans-serif;
+  }
+
 .container {
     padding: 0 10%;
     width: 100%;
     background-color: #ddd;
+}
+
+.hero {
+    top: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_1280.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.hero div {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero p {
+    margin-bottom: -20px;
+    color: var(--white);
+    font-size: 14px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.hero button {
+    background-color: var(--yellow);
+    padding: 1rem 2rem;
+    color: var(--black);
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 1.8rem;
 }
