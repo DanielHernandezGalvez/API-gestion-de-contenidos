@@ -76,4 +76,9 @@ html {
     border-radius: 7px;
     font-weight: bold;
     font-size: 1.8rem;
+    transition: .4s ease all;
+}
+
+.hero button:hover {
+    background-color: var(--white);
 }
