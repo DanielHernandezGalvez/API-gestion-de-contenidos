@@ -26,17 +26,19 @@
             <button>COTIZAR</button>
         </div>
 
-     
-            <div class="social-media">
 
-                <img src="../icons/facebook.png" alt="facebook">
-                <img src="../icons/instagram.png" alt="instagram">
-                <img src="../icons/linkedin.png" alt="linkedin">
+        <div class="social-media">
 
-            </div>
- 
+            <img src="../icons/facebook.png" alt="facebook">
+            <img src="../icons/instagram.png" alt="instagram">
+            <img src="../icons/linkedin.png" alt="linkedin">
+
+        </div>
+
 
     </section>
+
+    <?php require "about_view.php"; ?>
 
     <?php require "form_view.php"; ?>
 </body>
