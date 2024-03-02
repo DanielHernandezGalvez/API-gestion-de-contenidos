@@ -42,6 +42,8 @@
 
     <?php require "services_view.php" ?>
 
+    <?php require "process_view.php" ?>
+
     <?php require "form_view.php"; ?>
 </body>
 
