@@ -53,6 +53,7 @@ b {
   width: 100%;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -157,29 +158,29 @@ b {
 
 /* Social media */
 
-.social-media{
+.social-media {
   position: absolute;
   bottom: 0;
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   gap: 6rem;
   padding: 20px 10px;
 }
 
-.social-media img{
-  transition: .4s ease all;
+.social-media img {
+  transition: 0.4s ease all;
   height: 40px;
 }
 
-.social-media img:hover{
+.social-media img:hover {
   transform: scale(1.12);
 }
 
 /* About */
-.about{
+.about {
   min-height: 101vh;
   width: 100%;
   background-color: var(--black);
@@ -217,7 +218,7 @@ b {
   font-size: 18px;
 }
 
-.cta{
+.cta {
   background-color: var(--yellow);
   padding: 10px 20px;
   border-radius: 10px;
@@ -225,7 +226,7 @@ b {
   font-weight: bold;
   text-decoration: none;
   font-size: 2rem;
-  transition: .4s ease all;
+  transition: 0.4s ease all;
 }
 
 .cta:hover {
@@ -233,6 +234,37 @@ b {
   transform: scale(1.05);
 }
 
+.services {
+  min-height: 101vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?w=996&t=st=1709337265~exp=1709337865~hmac=c022828be5feecb0b5ec5746cbdab3413e0b04feae9757a94df22f035a0e7395");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services div:nth-child(1) {
+  width: 100%;
+  background-color: #22272b86;
+  min-height: 10vh;
+  display: grid;
+  grid-template-columns: ;
+}
+
+
+
+.services .services-grid {
+  position: relative;
+
+  min-height: 80vh;
+  background-color: red;
+}
 
 ::-webkit-scrollbar {
   width: 15px;

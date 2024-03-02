@@ -40,6 +40,8 @@
 
     <?php require "about_view.php"; ?>
 
+    <?php require "services_view.php" ?>
+
     <?php require "form_view.php"; ?>
 </body>
 
