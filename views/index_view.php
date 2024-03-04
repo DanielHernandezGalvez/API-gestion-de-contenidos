@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="shortcut icon" href="../FAVICON.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="shortcut icon" href="../assets/FAVICON.png" type="image/x-icon">
 </head>
 
 <body class="">
     <header>
         <nav class="navigation">
-            <img src="../img/LOGO.svg" alt="logo del creador web">
+            <img src="../assets/img/LOGO.svg" alt="logo del creador web">
             <div class="hamburger-slim">
 
             </div>
@@ -29,9 +29,9 @@
 
         <div class="social-media">
 
-            <img src="../icons/facebook.png" alt="facebook">
-            <img src="../icons/instagram.png" alt="instagram">
-            <img src="../icons/linkedin.png" alt="linkedin">
+            <img src="../assets/icons/facebook.png" alt="facebook">
+            <img src="../assets/icons/instagram.png" alt="instagram">
+            <img src="../assets/icons/linkedin.png" alt="linkedin">
 
         </div>
 
