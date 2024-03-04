@@ -77,4 +77,4 @@
 
 </form>
 
-<script src="../js/calculator.js"></script>
+<script src="../calculator.js"></script>
