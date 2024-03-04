@@ -1,4 +1,4 @@
-<form action="/form.php" method="post">
+<form action="/calculator.php" method="post">
 
     <label for="sections">Cantidad de secciones</label>
     <select name="sections" id="sections" onchange="updateSectionsResult()">
@@ -77,4 +77,4 @@
 
 </form>
 
-<script src="../javascript/form.js"></script>
+<script src="../js/calculator.js"></script>
