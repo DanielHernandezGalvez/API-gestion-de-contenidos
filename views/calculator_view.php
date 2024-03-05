@@ -133,9 +133,9 @@
 
         </div>
 
-        <div id="step5" class="hidden container">
+        <div id="step5" class="hidden">
             <!-- <label for="name">Nombre</label> -->
-            <div class="section-form">
+            <div class="form-submit">
                 <input type="text" name="name" placeholder="Nombre" id="name" require />
 
                 <input type="text" name="email" placeholder="Correo" id="email" require />
@@ -145,13 +145,6 @@
          
             <input type="submit" value="Enviar">
         </div>
-
-
-
-
-
-        <!-- total -->
-        <!-- <p id="total-result"></p> -->
 
     </form>
 
