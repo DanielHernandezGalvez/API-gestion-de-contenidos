@@ -16,7 +16,7 @@
 
         <div class="services-row-reverse">
             <div>
-                <img src="../icons/design.png" alt="Diseño ux ui">
+                <img src="../assets/icons/design.png" alt="Diseño ux ui">
                 <b>Diseño UX UI</b>
             </div>
             <div>
@@ -26,10 +26,10 @@
 
         <div class="services-row services-bg-purple">
             <div>
-                <img src="../img/server.jpg" alt="Hospedaje web">
+                <img src="../assets/img/server.jpg" alt="Hospedaje web">
             </div>
             <div>
-                <img src="../icons/cloud.png" alt="Hosting">
+                <img src="../assets/icons/cloud.png" alt="Hosting">
                 <b>Hosting y registro de dominios</b>
             </div>
         </div>
