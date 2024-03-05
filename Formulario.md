@@ -74,7 +74,6 @@
 </body>
 </html>
 
-
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Procesa los datos del formulario
