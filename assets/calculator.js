@@ -90,7 +90,7 @@ function updateTotal() {
 
   document.getElementById(
     "total-result"
-  ).textContent = `Total estimado: ${formattedTotal}`;
+  ).innerHTML = `<p class="result">Total estimado: <span class="total">${formattedTotal}</span> MNX</p>` ;
 }
 
 updateSectionsResult();

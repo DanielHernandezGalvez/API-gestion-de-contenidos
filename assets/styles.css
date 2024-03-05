@@ -420,17 +420,105 @@ text-align: center;
 }
 
 /* calculator */
-#progress-bar {
+#calculator{
+  min-height: 101vh;
   width: 100%;
-  background-color: lightgray;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+#progress-bar {
+  margin-top: 20px;
+  width: 100%;
+  background-color: var(--white);
+  border-radius: 10px;
 }
 #progress {
   width: 0%;
   height: 20px;
-  background-color: green;
+  background-color: var(--yellow);
+  border-radius: 10px;
 }
 .hidden {
   display: none;
+}
+
+label{
+  font-size: 18px;
+  color: var(--white);
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+}
+
+.form-subtitle {
+  color: var(--white) !important;
+  font-size: 13px;
+}
+
+.form-price {
+  color: var(--white);
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  margin-bottom: 5vh;
+}
+
+
+.section-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.next {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.next button {
+  background-color: var(--white);
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  color: var(--black);
+}
+
+input[type="text"], select, textarea {
+  border: 1px solid var(--white);
+  padding: 10px 5px;
+  border-radius: 2px;
+}
+
+input {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+.funcions-textarea{
+  margin-bottom: 2rem;
+}
+
+.result {
+color: var(--white);
+text-align: center;
+font-weight: bold;
+font-size: 20px;
+}
+
+.total {
+  color: var(--yellow) !important;
 }
 
 ::-webkit-scrollbar {
