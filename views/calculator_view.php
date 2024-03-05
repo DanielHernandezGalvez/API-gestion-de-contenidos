@@ -2,8 +2,11 @@
 
     <div>
         <h4 class="title">Calculadora de precios</h4>
+        <div class="section-progress-bar">
         <div id="progress-bar">
             <div id="progress"></div>
+        </div>
+        <span id="progress-bar-percent"></span>
         </div>
     </div>
 
@@ -134,7 +137,7 @@
         </div>
 
         <div id="step5" class="hidden">
-            <!-- <label for="name">Nombre</label> -->
+
             <div class="form-submit">
                 <input type="text" name="name" placeholder="Nombre" id="name" require />
 
@@ -142,7 +145,7 @@
 
                 <textarea name="message" id="message" placeholder="Mensaje" cols="30" rows="10"></textarea>
             </div>
-         
+
             <input type="submit" value="Enviar">
         </div>
 
