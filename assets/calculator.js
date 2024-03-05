@@ -90,3 +90,15 @@ updateEnglish();
 
 // Call updateTotal initially to display initial value
 updateTotal();
+
+// steps and progress bar
+let currentStep = 1;
+const totalSteps = 5;
+
+function nextStep() {
+    document.getElementById(`step${currentStep}`).classList.add('hidden');
+    currentStep++;
+    const progress = (currentStep - 1) / totalSteps * 100;
+    document.getElementById('progress').style.width = `${progress}%`;
+    document.getElementById(`step${currentStep}`).classList.remove('hidden');
+}

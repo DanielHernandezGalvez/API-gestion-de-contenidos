@@ -420,6 +420,18 @@ text-align: center;
 }
 
 /* calculator */
+#progress-bar {
+  width: 100%;
+  background-color: lightgray;
+}
+#progress {
+  width: 0%;
+  height: 20px;
+  background-color: green;
+}
+.hidden {
+  display: none;
+}
 
 ::-webkit-scrollbar {
   width: 15px;
