@@ -80,11 +80,11 @@
             <div class="section-form">
                 <label for="dominio">¿Ya tienes un dominio para tu página web?</label>
                 <select name="dominio" id="dominio" onchange="updateDominio()">
-                    <option value="0">Ya tengo un dominio para mi página web</option>
-                    <option value="0">No tengo, quiero comprarlo yo (recomendado)</option>
-                    <option value="289">No tengo, quiero un dominio.com anual</option>
-                    <option value="279">No tengo, quiero un dominio .com.mx anual</option>
-                    <option value="721">No tengo, quiero un dominio .mx anual</option>
+                    <option value="0">Ya tengo un dominio</option>
+                    <option value="0">No, quiero comprarlo yo (recomendado)</option>
+                    <option value="289">No, quiero un dominio.com anual</option>
+                    <option value="279">No, quiero un dominio .com.mx anual</option>
+                    <option value="721">No, quiero un dominio .mx anual</option>
                 </select>
             </div>
             <p class="form-subtitle">El dominio es la dirección con la cual la gente podrá entrar a tu página web.
@@ -95,12 +95,14 @@
                 <label for="host">¿Ya tienes un hospedaje para tu página web?</label>
                 <select name="host" id="host" onchange="updateHost()">
                     <option value="0">Ya tengo mi hospedaje web</option>
-                    <option value="0">No tengo, quiero comprarlo yo (recomendado)</option>
-                    <option value="791">No tengo, quiero un hospedaje anual</option>
+                    <option value="0">No, quiero comprarlo yo (recomendado)</option>
+                    <option value="791">No, quiero un hospedaje anual</option>
                 </select>
-                <p class="form-subtitle">El hospedaje web es donde se guardará tu página web para verse en Internet.
-                </p>
-                <p class="form-price" id="total-host"></p>
+                <div>
+                    <p class="form-subtitle">El hospedaje web es donde se guardará tu página web para verse en Internet.
+                    </p>
+                    <p class="form-price" id="total-host"></p>
+                </div>
             </div>
 
             <div class="next">
