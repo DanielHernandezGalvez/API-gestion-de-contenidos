@@ -12,7 +12,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = $_POST["name"];
   $email = $_POST["email"];
   $message = $_POST["message"];
-  $final_price = $_POST["total-result"];
+  $final_price = $sections + $images + $wordpress + $contact_form
+    + $dominio + $host + $english;
 
   // Construir el cuerpo del correo electrónico
   $subject = "Solicitud de cotización de sitio web";
@@ -26,11 +27,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $body .= "Otras funcionalidades: $functions\n";
   $body .= "\nNombre: $name\n";
   $body .= "Correo electrónico: $email\n";
-  $body .= "Mensaje: $message";
+  $body .= "Mensaje: $message`\n";
   $body .= "Total: $final_price";
 
   // Correo electrónico
-  $to = "contacto@elcreadorweb.com";
+  $to = "hernandezgalvezalejandro@gmail.com";
+  // $to = "contacto@elcreadorweb.com";
 
   // Encabezados adicionales
   $headers = "De: $email" . "\r\n";

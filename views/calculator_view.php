@@ -10,7 +10,7 @@
         </div>
     </div>
 
-    <form id="form" action="/calculator.php" method="post">
+    <form id="form" action="../calculator.php" method="post">
 
         <div id="step1" class="container">
             <div class="section-form">
