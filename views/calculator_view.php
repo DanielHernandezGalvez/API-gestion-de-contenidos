@@ -153,11 +153,15 @@
 
         </div>
 
+        <div id="success-message" style="display: none; color: green;">¡El formulario se ha enviado correctamente!</div>
+        <div id="error-message" style="display: none; color: red;">Hubo un problema al enviar el formulario. Por favor, inténtalo de nuevo más tarde.</div>
+
     </form>
 
     <div>
         <p id="total-result"></p>
     </div>
+
 
 </section>
 

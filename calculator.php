@@ -38,9 +38,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   // Enviar el correo electrónico
   if (mail($to, $subject, $body, $headers)) {
-    echo "¡Gracias por tu solicitud! Nos pondremos en contacto contigo pronto.";
+    echo "success";
   } else {
-    echo "Hubo un problema al enviar la solicitud. Por favor, inténtalo de nuevo más tarde.";
+    echo "error";
   }
 } else {
   // Si no se recibió una solicitud POST, redirigir al formulario
