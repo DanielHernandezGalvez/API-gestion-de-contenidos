@@ -4,11 +4,11 @@ const totalSteps = 5;
 
 function nextStep() {
   document.getElementById(`step${currentStep}`).classList.add("hidden");
-  const percent = document.getElementById("progress-bar")
   currentStep++;
-  // const progress = ((currentStep - 1) / totalSteps) * 100;
-  percent.innerHTML = `${progress}`
+  const progress = ((currentStep - 1) / totalSteps) * 100;
   document.getElementById("progress").style.width = `${progress}%`;
+  document.getElementById("progress-bar-percent").textContent = `${progress.toFixed(1)}%`;
+
   document.getElementById(`step${currentStep}`).classList.remove("hidden");
   updateTotal();
 }

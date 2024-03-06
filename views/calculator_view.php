@@ -1,12 +1,12 @@
 <div id="calculator" class="container">
 
-    <div>
-        <h4 class="title">Calculadora de precios</h4>
+    <div class="r">
+        <h4 class="title">Cotiza tu web</h4>
         <div class="section-progress-bar">
         <div id="progress-bar">
             <div id="progress"></div>
         </div>
-        <span id="progress-bar-percent"></span>
+        <span id="progress-bar-percent">0%</span>
         </div>
     </div>
 
