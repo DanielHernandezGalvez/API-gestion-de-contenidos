@@ -31,8 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $body .= "Total: $final_price";
 
   // Correo electrónico
-  $to = "hernandezgalvezalejandro@gmail.com";
-  // $to = "contacto@elcreadorweb.com";
+  $to = "contacto@elcreadorweb.com";
 
   // Encabezados adicionales
   $headers = "De: $email" . "\r\n";
