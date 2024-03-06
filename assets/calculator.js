@@ -92,7 +92,7 @@ function updateTotal() {
 
   document.getElementById(
     "total-result"
-  ).innerHTML = `<p class="result">Total estimado: <span class="total">${formattedTotal}</span> MNX</p>` ;
+  ).innerHTML = `<p class="result">Total: <span class="total">${formattedTotal}</span> MNX</p>` ;
 }
 
 updateSectionsResult();

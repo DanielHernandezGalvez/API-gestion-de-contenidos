@@ -1,12 +1,12 @@
-<div id="calculator" class="container">
+<section id="calculator" class="container">
 
-    <div class="r">
+    <div class="tilte-section">
         <h4 class="title">Cotiza tu web</h4>
         <div class="section-progress-bar">
-        <div id="progress-bar">
-            <div id="progress"></div>
-        </div>
-        <span id="progress-bar-percent">0%</span>
+            <div id="progress-bar">
+                <div id="progress"></div>
+            </div>
+            <span id="progress-bar-percent">0%</span>
         </div>
     </div>
 
@@ -66,7 +66,7 @@
                     <option value="400">Si</option>
                 </select>
             </div>
-            <p class="form-subtitle">La web incluye botónes de contacto a whatsapp, correo electrónico y más redes sociales.</p>
+            <p class="form-subtitle">La web incluye botónes de contacto al correo electrónico y redes sociales.</p>
             <p id="total-contactos" class="form-price"></p>
 
             <div class="next">
@@ -87,7 +87,7 @@
                     <option value="721">No tengo, quiero un dominio .mx anual</option>
                 </select>
             </div>
-            <p class="form-subtitle">El dominio de tu página web es la dirección con la cual la gente podrá entrar a tu página web.
+            <p class="form-subtitle">El dominio es la dirección con la cual la gente podrá entrar a tu página web.
             </p>
             <p id="total-dominio" class="form-price"></p>
 
@@ -98,7 +98,7 @@
                     <option value="0">No tengo, quiero comprarlo yo (recomendado)</option>
                     <option value="791">No tengo, quiero un hospedaje anual</option>
                 </select>
-                <p class="form-subtitle">El hospedaje web es el lugar donde se guardará tu página web para que se vea en Internet.
+                <p class="form-subtitle">El hospedaje web es donde se guardará tu página web para verse en Internet.
                 </p>
                 <p class="form-price" id="total-host"></p>
             </div>
@@ -139,14 +139,16 @@
         <div id="step5" class="hidden">
 
             <div class="form-submit">
-                <input type="text" name="name" placeholder="Nombre" id="name" require />
+                <input class="input-form" type="text" name="name" placeholder="Nombre" id="name" require />
 
                 <input type="text" name="email" placeholder="Correo" id="email" require />
 
                 <textarea name="message" id="message" placeholder="Mensaje" cols="30" rows="10"></textarea>
+                <div class="btn-submit">
+                    <input type="submit" value="ENVIAR">
+                </div>
             </div>
 
-            <input type="submit" value="Enviar">
         </div>
 
     </form>
@@ -155,6 +157,6 @@
         <p id="total-result"></p>
     </div>
 
-</div>
+</section>
 
 <script src="../assets/calculator.js"></script>
