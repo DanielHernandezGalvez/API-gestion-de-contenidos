@@ -141,9 +141,9 @@
         <div id="step5" class="hidden">
 
             <div class="form-submit">
-                <input class="input-form" type="text" name="name" placeholder="Nombre" id="name" require />
+                <input class="input-form" type="text" name="name" placeholder="Nombre" id="name" required />
 
-                <input type="text" name="email" placeholder="Correo" id="email" require />
+                <input type="text" name="email" placeholder="Correo" id="email" required />
 
                 <textarea name="message" id="message" placeholder="Mensaje" cols="30" rows="10"></textarea>
                 <div class="btn-submit">
