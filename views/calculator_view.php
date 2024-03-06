@@ -2,7 +2,7 @@
 
     <div class="tilte-section">
         <h4 class="title">Cotiza tu web</h4>
-        <div class="section-progress-bar">
+        <div id="percent" class="section-progress-bar">
             <div id="progress-bar">
                 <div id="progress"></div>
             </div>
@@ -146,16 +146,15 @@
                 <input type="text" name="email" placeholder="Correo" id="email" required />
 
                 <textarea name="message" id="message" placeholder="Mensaje" cols="30" rows="10"></textarea>
-                <div class="btn-submit">
+                <div  class="btn-submit">
                     <input type="submit" value="ENVIAR">
                 </div>
             </div>
 
         </div>
 
-        <div id="success-message" style="display: none; color: green;">¡El formulario se ha enviado correctamente!</div>
-        <div id="error-message" style="display: none; color: red;">Hubo un problema al enviar el formulario. Por favor, inténtalo de nuevo más tarde.</div>
-
+            <div id="success-message" style="display: none; color: green;">¡El formulario se ha enviado correctamente!</div>
+            <div id="error-message" style="display: none; color: red;">Hubo un problema al enviar el formulario. Por favor, inténtalo de nuevo más tarde.</div>
     </form>
 
     <div>

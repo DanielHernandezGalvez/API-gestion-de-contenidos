@@ -118,10 +118,12 @@ document.getElementById("form").addEventListener("submit", function(event) {
   .then(response => response.text())
   .then(result => {
     if (result === "success") {
+      document.getElementById("percent").classList = "hidden"
       document.getElementById("step5").classList = "hidden"
       document.getElementById("success-message").style.display = "block";
       document.getElementById("error-message").style.display = "none";
     } else {
+      document.getElementById("percent").classList = "hidden"
       document.getElementById("step5").classList = "hidden"
       document.getElementById("error-message").style.display = "block";
       document.getElementById("success-message").style.display = "none";
