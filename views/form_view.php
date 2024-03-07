@@ -1,4 +1,4 @@
-<section class="contact container">
+<section id="contact" class="contact container">
 
 <div class="contact-title">
     <h5 class="title">Contacto</h5>

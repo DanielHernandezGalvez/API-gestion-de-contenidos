@@ -1,4 +1,4 @@
-<section class="about">
+<section id="about" class="about">
     <h2 class="title">Sobre Nosotros</h2>
     <span></span>
     <p>En Creador Web, somos apasionados por crear sitios y aplicaciones web que te ayuden a alcanzar tus objetivos. <br>
