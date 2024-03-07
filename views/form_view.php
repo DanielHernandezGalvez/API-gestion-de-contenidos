@@ -30,10 +30,10 @@
 
         </div>
 
-        <div id="success-message-form" style="display: none; color: green;">¡El formulario se ha enviado correctamente!</div>
-        <div id="error-message-form" style="display: none; color: red;">Hubo un problema al enviar el formulario. Por favor, inténtalo de nuevo más tarde.</div>
-
+        
     </form>
+    <div id="success-message-form" style="display: none; color: green;">¡El formulario se ha enviado correctamente!</div>
+    <div id="error-message-form" style="display: none; color: red;">Hubo un problema al enviar el formulario. Por favor, inténtalo de nuevo más tarde.</div>
 
 </section>
 <script src="../assets/form.js"></script>

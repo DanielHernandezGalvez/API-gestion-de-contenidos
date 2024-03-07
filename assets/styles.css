@@ -715,6 +715,19 @@ input[type="submit"]{
   padding: 0 10%;
   text-align: center;
 }
+#success-message-form {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0 10%;
+  text-align: center;
+}
+
+#error-message-form {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0 10%;
+  text-align: center;
+}
 
 /* Contact */
 

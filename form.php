@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST["message-form"];
 
     // Construir el cuerpo del correo electrónico
-    $subject = "Solicitud de cotización de sitio web";
+    $subject = "Mensaje de sitio web";
     $body .= "\nNombre: $name\n";
     $body .= "Correo electrónico: $email\n";
     $body .= "Mensaje: $message`\n";

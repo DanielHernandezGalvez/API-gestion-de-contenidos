@@ -9,11 +9,13 @@ document.getElementById("last-form").addEventListener("submit", function(event) 
     .then(response => response.text())
     .then(result => {
       if (result === "success") {
-        document.getElementById("success-message").style.display = "block";
-        document.getElementById("error-message").style.display = "none";
+        document.getElementById("last-form").style.display = "none"
+        document.getElementById("success-message-form").style.display = "block";
+        document.getElementById("error-message-form").style.display = "none";
       } else {
-        document.getElementById("error-message").style.display = "block";
-        document.getElementById("success-message").style.display = "none";
+        document.getElementById("last-form").style.display = "none"
+        document.getElementById("error-message-form").style.display = "block";
+        document.getElementById("success-message-form").style.display = "none";
       }
     })
     .catch(error => {
