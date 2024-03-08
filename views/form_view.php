@@ -1,20 +1,28 @@
 <section id="contact" class="contact container">
 
-<div class="contact-title">
-    <h5 class="title">Contacto</h5>
-    <span class="span-hr"></span>
-</div>
+    <div class="contact-title">
+        <h5 class="title">Contacto</h5>
+        <span class="span-hr"></span>
+    </div>
 
-<div class="contact-leyend">
-    <p>¿Quieres empezar a crear tu futuro online?<br> <span>¡Contáctanos hoy mismo!</span></p>
-</div>
+    <div class="contact-leyend">
+        <p>¿Quieres empezar a crear tu futuro online?<br> <span>¡Contáctanos hoy mismo!</span></p>
+    </div>
 
-<div class="contact-social">
-    <img src="../assets/icons/whatsapp.png" alt="Whatsapp">
-    <img src="../assets/icons/facebook.png" alt="Whatsapp">
-    <img src="../assets/icons/instagram.png" alt="Whatsapp">
-    <img src="../assets/icons/linkedin.png" alt="Whatsapp">
-</div>
+    <div class="contact-social">
+        <!-- <img src="../assets/icons/whatsapp.png" alt="Whatsapp"> -->
+        <a href="mailto:contacto@elcreadorweb.com" target="_blank">
+                <img src="../assets/icons/mail.png" alt="correo electrónico">
+            </a>
+        <a href="https://www.facebook.com/profile.php?id=100094863716753" target="_blank">
+            <img src="../assets/icons/facebook.png" alt="facebook">
+        </a>
+        <a href="https://www.instagram.com/elcreadorweb/" target="_blank"> <img src="../assets/icons/instagram.png" alt="instagram">
+        </a>
+        <!-- <img src="../assets/icons/linkedin.png" alt="linkedin"> -->
+        <a href="https://www.tiktok.com/@elcreadorweb" target="_blank"> <img src="../assets/icons/tiktok.png" alt="tiktok">
+        </a>
+    </div>
 
     <form id="last-form" action="../form.php" method="post">
 
@@ -30,7 +38,7 @@
 
         </div>
 
-        
+
     </form>
     <div id="success-message-form" style="display: none; color: green;">¡El formulario se ha enviado correctamente!</div>
     <div id="error-message-form" style="display: none; color: red;">Hubo un problema al enviar el formulario. Por favor, inténtalo de nuevo más tarde.</div>

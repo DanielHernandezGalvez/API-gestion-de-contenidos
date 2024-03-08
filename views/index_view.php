@@ -8,7 +8,7 @@
     <meta name="description" content="Desarrollo y diseño de paginas web guadalajara gdl">
     <title>El Creador Web</title>
     <link rel="stylesheet" href="./assets/styles.css">
-    <link rel="shortcut icon" href="../assets/FAVICON.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/favicon.svg" type="image/x-icon">
 </head>
 
 <body class="">
@@ -17,7 +17,7 @@
             <input type="checkbox" id="nav-check">
             <div class="nav-header">
                 <a class="nav-title">
-                    <img height="40px" src="../assets//img/LOGO.svg" alt="">
+                    <img height="40px" src="../assets/img/logo.png" alt="">
                 </a>
             </div>
             <div class="nav-btn">
@@ -41,15 +41,25 @@
         <div>
             <p>Desarrollo y Diseño web Freelance</p>
             <h1>Creador Web</h1>
-            <button>COTIZAR</button>
+            <a href="#calculator">PRECIOS</a>
         </div>
 
 
         <div class="social-media">
-
-            <img src="../assets/icons/facebook.png" alt="facebook">
-            <img src="../assets/icons/instagram.png" alt="instagram">
-            <img src="../assets/icons/linkedin.png" alt="linkedin">
+            <a href="https://www.facebook.com/profile.php?id=100094863716753" target="_blank">
+                <img src="../assets/icons/facebook.png" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/elcreadorweb/" target="_blank">
+                <img src="../assets/icons/instagram.png" alt="instagram">
+            </a>
+            </a>
+            <a href="mailto:contacto@elcreadorweb.com" target="_blank">
+                <img src="../assets/icons/mail.png" alt="correo electrónico">
+            </a>
+            <!-- <img src="../assets/icons/linkedin.png" alt="linkedin"> -->
+            <a href="https://www.tiktok.com/@elcreadorweb" target="_blank">
+                <img src="../assets/icons/tiktok.png" alt="tiktok">
+            </a>
 
         </div>
 

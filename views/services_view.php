@@ -9,14 +9,14 @@
                 <img src="https://img.freepik.com/free-psd/laptop-mock-up-design_1315-12.jpg?t=st=1709403342~exp=1709406942~hmac=9cdcc95f3ce93f3b00221a13a2e95f7763ea674705abbd0d548c2e04fb0b9aeb&w=740" alt="Página web">
             </div>
             <div>
-                <img src="../assets/icons/world.png" alt="">
+                <img width="40" src="../assets/icons/world.svg" alt="">
                 <b>Páginas web</b>
             </div>
         </div>
 
         <div class="services-row-reverse">
             <div>
-                <img src="../assets/icons/design.png" alt="Diseño ux ui">
+                <img width="40" src="../assets/icons/design.svg" alt="Diseño ux ui">
                 <b>Diseño UX UI</b>
             </div>
             <div>
@@ -29,7 +29,7 @@
                 <img src="../assets/img/server.jpg" alt="Hospedaje web">
             </div>
             <div>
-                <img src="../assets/icons/cloud.png" alt="Hosting">
+                <img width="40" src="../assets/icons/cloud.svg" alt="Hosting">
                 <b>Hosting y registro de dominios</b>
             </div>
         </div>

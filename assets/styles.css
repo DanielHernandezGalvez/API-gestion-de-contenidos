@@ -192,7 +192,7 @@ button {
   font-weight: bold;
 }
 
-.hero button {
+.hero a {
   background-color: var(--yellow);
   padding: 1rem 2rem;
   color: var(--black);
@@ -201,9 +201,11 @@ button {
   font-weight: bold;
   font-size: 1.8rem;
   transition: 0.4s ease all;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-.hero button:hover {
+.hero a:hover {
   background-color: var(--white);
   transform: scale(1.05);
 }
@@ -280,6 +282,10 @@ button {
   align-items: center;
   gap: 6rem;
   padding: 20px 10px;
+}
+
+.social-media a{
+  background-color: transparent !important;
 }
 
 .social-media img {
