@@ -36,4 +36,4 @@
     <div id="error-message-form" style="display: none; color: red;">Hubo un problema al enviar el formulario. Por favor, inténtalo de nuevo más tarde.</div>
 
 </section>
-<script src="../assets/form.js"></script>
+<script src="../assets/js/form.js"></script>

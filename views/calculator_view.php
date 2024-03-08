@@ -20,6 +20,11 @@
                     <option value="2500">5</option>
                     <option value="3000">6</option>
                     <option value="3500">7</option>
+                    <option value="4000">8</option>
+                    <option value="4500">9</option>
+                    <option value="5000">10</option>
+                    <option value="5500">11</option>
+                    <option value="6000">12</option>
                 </select>
             </div>
             <p class="form-subtitle">Por ejemplo: Inicio, Quiénes somos, Servicio 1, Servicio 2, Contacto, etc.
@@ -164,4 +169,4 @@
 
 </section>
 
-<script src="../assets/calculator.js"></script>
+<script src="../assets/js/calculator.js"></script>

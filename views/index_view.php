@@ -68,6 +68,8 @@
 
     <?php require "form_view.php"; ?>
 
+    <?php require "footer_view.php"; ?>
+
     <!-- <script src="../assets/scroll.js"></script> -->
 </body>
 

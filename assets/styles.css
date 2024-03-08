@@ -798,6 +798,26 @@ input[type="submit"]{
   height: 30px;
 }
 
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  text-decoration: none;
+  font-size: 16px;
+  padding: 20px 0;
+}
+
+footer span:nth-child(2){
+  color: var(--yellow);
+  margin-left: 7px;
+}
+
+footer span:nth-child(1){
+  margin-right: 7px;
+}
+
 /* scroll */
 ::-webkit-scrollbar {
   width: 15px;
