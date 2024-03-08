@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Construir el cuerpo del correo electrónico
     $subject = "Mensaje de sitio web";
     $body .= "\nNombre: $name\n";
-    $body .= "Correo electrónico: $email\n";
+    $body .= "Correo electronico: $email\n";
     $body .= "Mensaje: $message`\n";
 
     // Correo electrónico
@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers = "De: $email" . "\r\n";
 
     // Enviar el correo electrónico
-    if (mail($to, $subject, $body, $headers)) {
+    if (mail($to, $subject, $body, $headers,  "-futf-8")) {
         echo "success";
     } else {
         echo "error";

@@ -16,17 +16,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     + $dominio + $host + $english;
 
   // Construir el cuerpo del correo electrónico
-  $subject = "Solicitud de cotización de sitio web";
+  $subject = "Solicitud de cotizacion de sitio web";
   $body = "Cantidad de secciones: $sections\n";
   $body .= "Cantidad de imágenes: $images\n";
   $body .= "Actualizar contenido por cuenta propia: $wordpress\n";
-  $body .= "¿Formulario de contacto? $contact_form\n";
-  $body .= "¿Dominio? $dominio\n";
-  $body .= "¿Hospedaje? $host\n";
-  $body .= "¿Página en inglés? $english\n";
+  $body .= "Formulario de contacto $contact_form\n";
+  $body .= "Dominio $dominio\n";
+  $body .= "Hospedaje $host\n";
+  $body .= "Pagina en ingles $english\n";
   $body .= "Otras funcionalidades: $functions\n";
   $body .= "\nNombre: $name\n";
-  $body .= "Correo electrónico: $email\n";
+  $body .= "Correo electronico: $email\n";
   $body .= "Mensaje: $message`\n";
   $body .= "Total: $final_price";
 
@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $headers = "De: $email" . "\r\n";
 
   // Enviar el correo electrónico
-  if (mail($to, $subject, $body, $headers)) {
+  if (mail($to, $subject, $body, $headers,  "-futf-8")) {
     echo "success";
   } else {
     echo "error";

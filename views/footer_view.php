@@ -1,5 +1,5 @@
 <footer>
- <span id="year"></span> &copy;  Desarrollado por <span>El Creador Web</span>
+ <span id="year"></span> &copy;  <span>El Creador Web</span>
 </footer>
 
 <script>
