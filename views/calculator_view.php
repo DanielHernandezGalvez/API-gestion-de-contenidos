@@ -174,7 +174,7 @@
 
         </div>
 
-        <div id="step5" class="hidden container">
+        <div id="step5" class="hidden ">
 
             <div class="form-submit">
                 <input class="input-form" type="text" name="name" placeholder="Nombre" id="name" required />
