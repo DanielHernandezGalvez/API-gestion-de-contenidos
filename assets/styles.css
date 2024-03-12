@@ -548,7 +548,7 @@ text-align: center;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .cta-a {
@@ -558,8 +558,8 @@ text-align: center;
 }
 
 .card {
-  width: 40vw;
-  height: 23vh;
+  width: 45vw;
+  height: 25vh;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -568,8 +568,15 @@ text-align: center;
   color: var(--white);
   font-size: 18px;
   margin: 0 !important;
-  padding: 0 10px;
+  padding: 0 5px;
   box-shadow: 2px 2px 8px #000;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 3px 3px 7px rgb(0 0 0 / 0.15);
 }
 
 .card span {
