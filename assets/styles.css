@@ -208,6 +208,10 @@ button {
   text-decoration: none;
 }
 
+.hero .social-media a {
+  padding: .5rem;
+}
+
 .hero a:hover {
   background-color: var(--white);
   transform: scale(1.05);
@@ -680,6 +684,8 @@ font-size: 20px;
   gap: 2rem;
 }
 
+
+
 .btn-submit{
   display: flex;
   justify-content: center;
@@ -781,8 +787,11 @@ input[type="submit"]{
 }
 
 .span-hr {
-  background-color: var(--yellow);
+  width: 80vw;
+  max-width: 350px;
   height: 3px;
+  background-color: var(--yellow);
+  border: none;
 }
 
 .contact-leyend p{
@@ -792,6 +801,7 @@ input[type="submit"]{
 .contact-leyend span {
   font-family: "Rubik", sans-serif;
   font-size: 32px;
+  text-align: center;
 }
 
 .contact-social {
@@ -828,6 +838,121 @@ footer span:nth-child(2){
 
 footer span:nth-child(1){
   margin-right: 7px;
+}
+
+/* Responisve */
+
+.about-responsive {
+width: 90%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.section-form div {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 992px) {
+  .about-responsive {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 7% 0;
+  }
+  .about-responsive p {
+    max-width: 40%;
+  }
+  .about-responsive img {
+    max-height: 250px;
+  }
+.tilte-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  #calculator form {
+    width: 100%;
+  }
+
+ 
+.section-progress-bar {
+  width: 100%;
+}
+ 
+
+  .section-form div{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .section-form div select {
+    width: 100%;
+  }
+
+
+  .responsive-calculator {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  .responsive-calculator  div:nth-child(2) {
+    width: 70%;
+  }
+
+  .responsive-calculator  div:nth-child(3) {
+    width: 30%;
+  }
+
+  .form-subtitle {
+    margin-top: 0;
+  }
+
+  .next {
+    margin-top: 3rem;
+  }
+
+  .calculator-comment-responsive {
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  .form-submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* padding: 0 10%; */
+    max-width: 700px;
+    /* padding: 0 20%; */
+    margin: 0 auto;
+  }
+
+   input[type="text"], input[type="email"], select, textarea {
+    border: 1px solid var(--white);
+    padding: 15px 7px;
+    border-radius: 10px;
+  }
+
+  /* formulario */
+  #last-form .form-submit{
+    width: 700px !important;
+    min-width: 600px !important;
+  }
+  
+.contact-social{
+  max-width: 698px;
+}
+
+.contact-leyend p br {
+  display: none;
+}
+
 }
 
 /* scroll */
