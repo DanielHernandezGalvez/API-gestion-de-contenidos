@@ -5,8 +5,9 @@
 
     <div class="services-grid">
         <div class="services-row services-bg-dark">
-            <div>
+            <div class="box">
                 <img src="https://img.freepik.com/free-psd/laptop-mock-up-design_1315-12.jpg?t=st=1709403342~exp=1709406942~hmac=9cdcc95f3ce93f3b00221a13a2e95f7763ea674705abbd0d548c2e04fb0b9aeb&w=740" alt="Página web">
+                <span class="over-text">Podemos hacer tu página web a la mdedida y enfocada en tus necesidades digitales</span>
             </div>
             <div>
                 <img width="40" src="../assets/icons/world.svg" alt="">
@@ -19,14 +20,16 @@
                 <img width="40" src="../assets/icons/design.svg" alt="Diseño ux ui">
                 <b>Diseño UX UI</b>
             </div>
-            <div>
+            <div class="box">
                 <img src="https://img.freepik.com/free-photo/ui-ux-representations-with-laptop_23-2150201871.jpg?t=st=1709403034~exp=1709406634~hmac=a44ef68aa8ed950217f531667014f55882928cceef8ea8196d35e59b1c60ea2e&w=740" alt="Diseño ux ui">
+                <span class="over-text">Podemos hacer tu página web a la mdedida y enfocada en tus necesidades digitales</span>
             </div>
         </div>
 
         <div class="services-row services-bg-purple">
-            <div>
+            <div class="box">
                 <img src="../assets/img/server.jpg" alt="Hospedaje web">
+                <span class="over-text">Podemos hacer tu página web a la mdedida y enfocada en tus necesidades digitales</span>
             </div>
             <div>
                 <img width="40" src="../assets/icons/cloud.svg" alt="Hosting">
