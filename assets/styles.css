@@ -467,6 +467,34 @@ text-align: center;
   font-size: 2.5rem;
 }
 
+.box {
+  position: relative;
+}
+
+.over-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff !important;
+  opacity: 0;
+  transition:  0.3s all ease-in;
+  text-align: center;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.box:hover .over-text {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.7); /* Ajusta la transparencia del fondo */
+}
+
 /* Banner */
 .banner {
   height: 30vh;
@@ -557,7 +585,11 @@ text-align: center;
   min-height: 101vh;
   width: 100%;
   max-width: 100%;
-  background-color: var(--black);
+  background-image: url("../assets/img/gradient.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -901,11 +933,11 @@ align-items: center;
   }
 
   .responsive-calculator  div:nth-child(2) {
-    width: 70%;
+    width: 90%;
   }
 
   .responsive-calculator  div:nth-child(3) {
-    width: 30%;
+    width: 10%;
   }
 
   .form-subtitle {
