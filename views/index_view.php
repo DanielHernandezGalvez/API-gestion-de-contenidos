@@ -12,6 +12,22 @@
 </head>
 
 <body class="">
+
+    <div id="onload">
+        <div class="spinner">
+            <div class="lds-roller ">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
     <header>
         <div class="nav">
             <input type="checkbox" id="nav-check">
@@ -46,7 +62,7 @@
 
 
         <div class="social-media">
-        <a href="https://www.tiktok.com/@elcreadorweb" target="_blank">
+            <a href="https://www.tiktok.com/@elcreadorweb" target="_blank">
                 <img src="../assets/icons/tiktok.png" alt="tiktok">
             </a>
             <a href="https://www.facebook.com/profile.php?id=100094863716753" target="_blank">
@@ -59,7 +75,7 @@
             <a href="mailto:contacto@elcreadorweb.com" target="_blank">
                 <img src="../assets/icons/mail.png" alt="correo electrónico">
             </a>
-         
+
             <!-- <img src="../assets/icons/linkedin.png" alt="linkedin"> -->
 
         </div>
@@ -82,6 +98,13 @@
     <?php require "footer_view.php"; ?>
 
     <!-- <script src="../assets/scroll.js"></script> -->
+    <script>
+        window.onload = function() {
+            const spinner = document.getElementById("onload");
+            spinner.style.visibility = "hidden"
+            spinner.style.opacity = 0
+        }
+    </script>
 </body>
 
 </html>
