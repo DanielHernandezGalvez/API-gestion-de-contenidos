@@ -98,9 +98,7 @@ button {
   display: none;
 }
 
-
-
-@media (max-width:600px) {
+@media (max-width: 600px) {
   /* .fixed-top {
     position: fixed;
     width: 100%;
@@ -185,7 +183,6 @@ button {
   color: var(--white);
   font-size: 14px;
   text-align: center;
-
 }
 
 .hero h1 {
@@ -209,7 +206,7 @@ button {
 }
 
 .hero .social-media a {
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .hero a:hover {
@@ -291,7 +288,7 @@ button {
   padding: 20px 10px;
 }
 
-.social-media a{
+.social-media a {
   max-width: 50px;
   background-color: transparent !important;
 }
@@ -391,11 +388,11 @@ button {
   min-height: 89vh;
 }
 
-.services-bg-dark{
+.services-bg-dark {
   background-color: #2a59788a !important;
 }
 
-.services-bg-purple{
+.services-bg-purple {
   background-color: #4320588e !important;
 }
 
@@ -405,7 +402,7 @@ button {
   flex-direction: row;
   max-width: 100%;
   height: 30vh;
-text-align: center;
+  text-align: center;
   padding: 0;
 }
 
@@ -431,7 +428,6 @@ text-align: center;
   color: var(--white);
   font-size: 2.5rem;
 }
-
 
 .services-row-reverse {
   display: flex;
@@ -480,7 +476,7 @@ text-align: center;
   transform: translate(-50%, -50%);
   color: #fff !important;
   opacity: 0;
-  transition:  0.3s all ease-in;
+  transition: 0.3s all ease-in;
   text-align: center;
   padding: 10px 25px;
   display: flex;
@@ -519,15 +515,15 @@ text-align: center;
   align-items: center;
 }
 
-.card-blue{
+.card-blue {
   background-color: #2a5978d6;
 }
 
-.card-yellow{
+.card-yellow {
   background-color: #967a2fd6;
 }
 
-.card-purple{
+.card-purple {
   background-color: #432058d8;
 }
 
@@ -571,7 +567,7 @@ text-align: center;
   padding: 0 5px;
   box-shadow: 2px 2px 8px #000;
   cursor: pointer;
-  transition: .3s ease all;
+  transition: 0.3s ease all;
 }
 
 .card:hover {
@@ -581,14 +577,14 @@ text-align: center;
 
 .card span {
   font-family: "Rubik", sans-serif;
-} 
+}
 
 .card .number {
   font-size: 4rem;
 }
 
 /* calculator */
-#calculator{
+#calculator {
   min-height: 101vh;
   width: 100%;
   max-width: 100%;
@@ -604,7 +600,7 @@ text-align: center;
   padding: 20px 0;
 }
 
-.tilte-section{
+.tilte-section {
   width: 100%;
   padding: 0 10%;
 }
@@ -621,16 +617,15 @@ text-align: center;
   background-color: var(--yellow);
   border-radius: 10px;
 }
-.section-progress-bar{
+.section-progress-bar {
   width: 100%;
   margin: 10px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
 }
 
-.section-progress-bar span{
+.section-progress-bar span {
   font-size: 18px;
   color: var(--white);
   font-family: "Rubik", sans-serif;
@@ -646,7 +641,7 @@ text-align: center;
   align-items: center;
 }
 
-label{
+label {
   font-size: 18px;
   color: var(--white);
   font-weight: bold;
@@ -667,7 +662,7 @@ label{
   margin-bottom: 3vh;
 }
 
-.section-form{
+.section-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -692,29 +687,32 @@ label{
   color: var(--black);
 }
 
-input[type="text"], input[type="email"], select, textarea {
+input[type="text"],
+input[type="email"],
+select,
+textarea {
   border: 1px solid var(--white);
   padding: 10px 5px;
   border-radius: 10px;
 }
 
-.funcions-textarea{
+.funcions-textarea {
   margin-bottom: 2rem;
 }
 
 .result {
-color: var(--white);
-text-align: center;
-font-weight: bold;
-font-size: 20px;
+  color: var(--white);
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .total {
   color: var(--yellow) !important;
 }
 
-.form-submit{
-  width: 80vw ;
+.form-submit {
+  width: 80vw;
   max-width: 500px;
   display: flex;
   flex-direction: column;
@@ -723,9 +721,7 @@ font-size: 20px;
   gap: 2rem;
 }
 
-
-
-.btn-submit{
+.btn-submit {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -746,7 +742,7 @@ font-size: 20px;
   width: 100%;
 }
 
-input[type="submit"]{
+input[type="submit"] {
   background-color: var(--white);
   border: none;
   border-radius: 10px;
@@ -786,7 +782,7 @@ input[type="submit"]{
 
 /* Contact */
 
-.contact{
+.contact {
   min-height: 101vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -833,7 +829,7 @@ input[type="submit"]{
   border: none;
 }
 
-.contact-leyend p{
+.contact-leyend p {
   color: var(--white);
   font-size: 15px;
 }
@@ -870,23 +866,23 @@ footer {
   text-align: center;
 }
 
-footer span:nth-child(2){
+footer span:nth-child(2) {
   color: var(--yellow);
   margin-left: 7px;
 }
 
-footer span:nth-child(1){
+footer span:nth-child(1) {
   margin-right: 7px;
 }
 
 /* Responisve */
 
 .about-responsive {
-width: 90%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-form div {
@@ -905,24 +901,22 @@ align-items: center;
   .about-responsive img {
     max-height: 250px;
   }
-.tilte-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  .tilte-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   #calculator form {
     width: 100%;
   }
 
- 
-.section-progress-bar {
-  width: 100%;
-}
- 
+  .section-progress-bar {
+    width: 100%;
+  }
 
-  .section-form div{
+  .section-form div {
     max-width: 1000px;
     display: flex;
     flex-direction: column !important;
@@ -932,18 +926,17 @@ align-items: center;
     width: 100%;
   }
 
-
   .responsive-calculator {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
   }
 
-  .responsive-calculator  div:nth-child(2) {
+  .responsive-calculator div:nth-child(2) {
     width: 90%;
   }
 
-  .responsive-calculator  div:nth-child(3) {
+  .responsive-calculator div:nth-child(3) {
     width: 10%;
   }
 
@@ -972,37 +965,31 @@ align-items: center;
     margin: 0 auto;
   }
 
-   input[type="text"], input[type="email"], select, textarea {
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
     border: 1px solid var(--white);
     padding: 15px 7px;
     border-radius: 10px;
   }
 
   /* formulario */
-  #last-form .form-submit{
+  #last-form .form-submit {
     width: 700px !important;
     min-width: 600px !important;
   }
-  
-.contact-social{
-  max-width: 698px;
-}
 
-.contact-leyend p br {
-  display: none;
-}
+  .contact-social {
+    max-width: 698px;
+  }
 
+  .contact-leyend p br {
+    display: none;
+  }
 }
 
 /* spinner */
-
-/* *,*:after, *:before {
-  margin: 0;
-  padding: 0;
-  --webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-} */
 
 .spinner {
   background-color: var(--black);
