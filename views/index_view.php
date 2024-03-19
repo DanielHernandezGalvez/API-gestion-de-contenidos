@@ -55,8 +55,8 @@
 
     <section class="hero">
         <div>
-            <p>Desarrollo y Diseño web Freelance</p>
-            <h1>Creador Web</h1>
+            <p>Desarrollo y Diseño de</p>
+              <h1><strong>Páginas Web</strong></h1>
             <a href="#calculator">PRECIOS</a>
         </div>
 
