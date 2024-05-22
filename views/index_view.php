@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Página web pagina web barata cuanto cuesta pagina web ">
     <meta name="description" content="Desarrollo y diseño de paginas web guadalajara gdl">
-    <title>El Creador Web</title>
+    <title>Diseño de páginas web. Te hacemos tu página web a la medida. - El Creador Web</title>
     <link rel="stylesheet" href="./assets/styles.css">
     <link rel="shortcut icon" href="../assets/favicon.svg" type="image/x-icon">
 </head>
