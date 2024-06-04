@@ -69,8 +69,8 @@
             <a href="https://www.facebook.com/profile.php?id=100094863716753" target="_blank">
                 <img src="../assets/icons/facebook.png" alt="facebook">
             </a>
-           <!-- <a href="https://www.instagram.com/elcreadorweb/" target="_blank">
-                <img src="../assets/icons/instagram.png" alt="instagram"> -->
+           <a href="https://www.instagram.com/elcreadorweb/" target="_blank">
+                <img src="../assets/icons/instagram.png" alt="instagram"> 
             </a>
             </a>
             <a href="mailto:contacto@elcreadorweb.com" target="_blank">
