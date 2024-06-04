@@ -77,7 +77,7 @@
                 <img src="../assets/icons/mail.png" alt="correo electrónico">
             </a>
 
-            <!-- <img src="../assets/icons/linkedin.png" alt="linkedin"> -->
+            <img src="../assets/icons/linkedin.png" alt="linkedin"> 
 
         </div>
 
