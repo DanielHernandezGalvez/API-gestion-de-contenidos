@@ -98,7 +98,6 @@
 
     <?php require "footer_view.php"; ?>
 
-    <!-- <script src="../assets/scroll.js"></script> -->
     <script>
         window.onload = function() {
             const spinner = document.getElementById("onload");
