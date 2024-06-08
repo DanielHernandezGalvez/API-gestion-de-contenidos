@@ -34,6 +34,7 @@
                             <option value="8000">13</option>
                             <option value="8500">14</option>
                             <option value="9000">15</option>
+                            <option value="10000">mas...</option>
                         </select>
                     </div>
                     <p class="form-subtitle">Por ejemplo: Inicio, Quiénes somos, Servicio 1, Servicio 2, Contacto, etc.
