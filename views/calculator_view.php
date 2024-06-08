@@ -76,7 +76,7 @@
                         <label for="wordpress">¿Quieres actualizar el contenido por tu cuenta?</label>
                         <select name="wordpress" id="wordpress" onchange="updatedWordpress()">
                             <option value="0">No</option>
-                            <option value="800">Si</option>
+                            <option value="900">Si</option>
                         </select>
                     </div>
                     <p class="form-subtitle">Se instala Wordpress.org y recibes una guía gratuita para que edites tu contenido.
