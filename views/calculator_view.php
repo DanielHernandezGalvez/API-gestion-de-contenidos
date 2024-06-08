@@ -53,6 +53,7 @@
                             <option value="200">21-30</option>
                             <option value="300">31-40</option>
                             <option value="400">41-50</option>
+                            <option value="600">mas...</option>
                         </select>
                     </div>
                     <p class="form-subtitle">Imágenes de tu negocio, productos o servicios.
