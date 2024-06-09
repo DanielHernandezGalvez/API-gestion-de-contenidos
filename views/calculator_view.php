@@ -133,7 +133,7 @@
                         <select name="host" id="host" onchange="updateHost()">
                             <option value="0">Ya tengo mi hospedaje web</option>
                             <option value="0">No, quiero comprarlo yo (recomendado)</option>
-                            <option value="791">No, quiero un hospedaje anual</option>
+                            <option value="800">No, quiero un hospedaje anual</option>
                         </select>
 
                     </div>
