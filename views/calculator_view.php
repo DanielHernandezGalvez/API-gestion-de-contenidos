@@ -19,22 +19,22 @@
                     <div>
                         <label for="sections">Cantidad de Páginas</label>
                         <select name="sections" id="sections" onchange="updateSectionsResult()">
-                            <option value="2000">1</option>
-                            <option value="2500">2</option>
-                            <option value="3000">3</option>
-                            <option value="3500">4</option>
-                            <option value="4000">5</option>
-                            <option value="4500">6</option>
-                            <option value="5000">7</option>
-                            <option value="5500">8</option>
-                            <option value="6000">9</option>
-                            <option value="6500">10</option>
-                            <option value="7000">11</option>
-                            <option value="7500">12</option>
-                            <option value="8000">13</option>
-                            <option value="8500">14</option>
-                            <option value="9000">15</option>
-                            <option value="10000">mas...</option>
+                            <option value="3000">1</option>
+                            <option value="3500">2</option>
+                            <option value="4000">3</option>
+                            <option value="4500">4</option>
+                            <option value="5000">5</option>
+                            <option value="5500">6</option>
+                            <option value="6000">7</option>
+                            <option value="6500">8</option>
+                            <option value="7000">9</option>
+                            <option value="7500">10</option>
+                            <option value="8000">11</option>
+                            <option value="8500">12</option>
+                            <option value="9000">13</option>
+                            <option value="9500">14</option>
+                            <option value="10000">15</option>
+                            <option value="10500">mas...</option>
                         </select>
                     </div>
                     <p class="form-subtitle">Por ejemplo: Inicio, Quiénes somos, Servicio 1, Servicio 2, Contacto, etc.
