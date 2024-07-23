@@ -12,17 +12,18 @@
     </div>
 
     <div class="contact-social">
-        <!-- <img src="../assets/icons/whatsapp.png" alt="Whatsapp"> -->
         <a href="mailto:contacto@elcreadorweb.com" target="_blank">
-                <img src="../assets/icons/mail.png" alt="correo electrónico">
-            </a>
+            <img src="../assets/icons/mail.png" alt="correo electrónico">
+        </a>
         <a href="https://www.facebook.com/profile.php?id=100094863716753" target="_blank">
             <img src="../assets/icons/facebook.png" alt="facebook">
         </a>
-        <a href="https://www.instagram.com/elcreadorweb/" target="_blank"> <img src="../assets/icons/instagram.png" alt="instagram">
+        <a href="https://www.instagram.com/elcreadorweb/" target="_blank"> 
+            <img src="../assets/icons/instagram.png" alt="instagram">
         </a>
-        <!-- <img src="../assets/icons/linkedin.png" alt="linkedin"> -->
-        <a href="https://www.tiktok.com/@elcreadorweb" target="_blank"> <img src="../assets/icons/tiktok.png" alt="tiktok">
+            <img src="../assets/icons/linkedin.png" alt="linkedin"> 
+        <a href="https://www.tiktok.com/@elcreadorweb" target="_blank"> 
+            <img src="../assets/icons/tiktok.png" alt="tiktok">
         </a>
     </div>
 
