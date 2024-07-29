@@ -43,6 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "error";
   }
 } else {
+  
   // Si no se recibió una solicitud POST, redirigir al formulario
   header("Location: calculator_view.php");
   exit();
