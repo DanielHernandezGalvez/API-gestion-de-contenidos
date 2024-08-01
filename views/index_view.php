@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Página web, diseño de página web, pagina web precio">
     <meta name="description" content="Desarrollo y diseño de páginas web en Guadalajara">
-    <meta name="robots" content="index,follow">
+    <meta name="robots" content="index, follow">
     <title>Diseño de páginas web Guadalajara. Te hacemos tu página web a la medida. - El Creador Web</title>
     <link rel="stylesheet" href="./assets/styles.css">
     <link rel="shortcut icon" href="../assets/favicon.svg" type="image/x-icon">
@@ -60,7 +60,6 @@
               <h1><strong>Páginas Web</strong></h1>
             <a href="#calculator">PRECIOS</a>
         </div>
-
 
         <div class="social-media">
             <a href="https://www.tiktok.com/@elcreadorweb" target="_blank">
