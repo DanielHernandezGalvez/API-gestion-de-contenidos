@@ -1,5 +1,4 @@
 <?php
-
 // Verificar si se recibió una solicitud POST
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $sections = $_POST["sections"];
