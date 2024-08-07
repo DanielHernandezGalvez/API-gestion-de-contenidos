@@ -3,7 +3,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name-form"];
     $email = $_POST["email-form"];
-    $message = $_POST["message-form"]
+    $message = $_POST["message-form"];
 
     // Construir el cuerpo del correo electrónico
     $subject = "Mensaje de sitio web";
