@@ -11,9 +11,7 @@
     </div>
 
     <form id="form" action="../calculator.php" method="post">
-
         <div id="step1" class="container">
-
             <div class="responsive-calculator">
                 <div class="section-form">
                     <div>
