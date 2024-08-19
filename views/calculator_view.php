@@ -65,7 +65,6 @@
 
         </div>
 
-
         <div id="step2" class="hidden container">
             <div class="responsive-calculator">
 
