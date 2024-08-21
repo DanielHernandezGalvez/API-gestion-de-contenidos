@@ -15,7 +15,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
   $final_price = $sections + $images + $wordpress + $contact_form
     + $dominio + $host + $english;
-  
 
   // Construir el cuerpo del correo electrónico
   $subject = "Solicitud de cotizacion de sitio web";
