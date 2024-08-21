@@ -12,7 +12,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = $_POST["name"];
   $email = $_POST["email"];
   $message = $_POST["message"];
-  
   $final_price = $sections + $images + $wordpress + $contact_form
     + $dominio + $host + $english;
 
