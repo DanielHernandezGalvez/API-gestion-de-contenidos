@@ -12,11 +12,11 @@
     <link rel="shortcut icon" href="../assets/favicon.svg" type="image/x-icon">
 </head>
 
-<body class="">
+<body>
 
     <div id="onload">
         <div class="spinner">
-            <div class="lds-roller ">
+            <div class="lds-roller">
                 <div></div>
                 <div></div>
                 <div></div>
