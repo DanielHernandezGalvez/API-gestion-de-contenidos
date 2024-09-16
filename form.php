@@ -5,11 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email-form"];
     $message = $_POST["message-form"];
 
-    // Construir el cuerpo del correo electrónico
-    $subject = "Mensaje de sitio web";
-    $body .= "\nNombre: $name\n";
-    $body .= "Correo electronico: $email\n";
-    $body .= "Mensaje: $message`\n";
+
 
     // Correo electrónico
     $to = "contacto@elcreadorweb.com";
