@@ -30,6 +30,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $body .= "Mensaje: $message`\n";
   $body .= "Total: $final_price";
 
+// colocar el midleware de verificación 
+  
   // Correo electrónico
   $to = "contacto@elcreadorweb.com";
 
